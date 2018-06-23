@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'Assignment 3 !';
   msg = "Marvellous Infosystem";
   clickMe() {
-      msg = "Button Clicked ";
+      this.msg = "Button Clicked ";
   }
+
 }
